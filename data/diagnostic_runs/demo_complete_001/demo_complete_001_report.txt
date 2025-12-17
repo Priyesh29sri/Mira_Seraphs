@@ -1,0 +1,23 @@
+MIRA-Wave Diagnostic Report
+======================================================================
+
+[FAULT SUMMARY]
+The vehicle exhibits a imbalance fault with severity 0.6
+located at coordinates (-0.98m, 0.41m).
+
+[PHYSICAL EVIDENCE]
+- Dominant frequency: 143.6 Hz
+- Vibration location: (-0.98, 0.41) meters from center
+- Localization confidence: 100.0%
+
+[ROOT CAUSE ANALYSIS]
+Causal inference assigns 94.7% probability to wheel_imbalance.
+This diagnosis is based on fleet-level pattern matching and Bayesian reasoning.
+
+[RECOMMENDED ACTION]
+Repair type: wheel_balancing
+Estimated cost: $50-$80
+Urgency: 6/10
+Priority: high
+
+[ROUTINE] Recommended timeframe: Schedule within 1 week

@@ -1,0 +1,120 @@
+{
+  "dataset_name": "MIRA-Wave Diagnostic Runs",
+  "created": "2025-12-07T01:16:23.340550",
+  "runs": [
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:16:23.251352",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:16:47.383821",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:17:18.839933",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:17:55.423477",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:18:27.257376",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:19:04.549604",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:50:51.044233",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    },
+    {
+      "run_id": "quickstart_002",
+      "timestamp": "2025-12-07T01:55:57.472804",
+      "input_parameters": {
+        "fault_type": "bearing_wear",
+        "severity": 0.7,
+        "speed_kmh": 50.0,
+        "load_kg": 500.0
+      },
+      "fault_location": null,
+      "causal_results": null,
+      "repair_schedule": null,
+      "explanation_summary": null
+    }
+  ],
+  "total_runs": 8,
+  "last_updated": "2025-12-07T01:55:57.564606"
+}

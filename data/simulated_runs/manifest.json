@@ -1,0 +1,521 @@
+{
+  "dataset_name": "MIRA-Wave Simulated Faults",
+  "num_runs": 15,
+  "fault_types": [
+    "imbalance",
+    "loose_mount",
+    "bearing_wear"
+  ],
+  "runs": [
+    {
+      "run_id": "run_001",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.2,
+      "speed_kmh": 60.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.2,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.003,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_002",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.8,
+      "speed_kmh": 60.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 2
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.8,
+          "wheel_index": 2,
+          "mass_eccentricity_kg_m": 0.012,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_003",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.4,
+      "speed_kmh": 20.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.4,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.006,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_004",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.4,
+      "speed_kmh": 60.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.4,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.006,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_005",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.6,
+      "speed_kmh": 50.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.6,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.009,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_006",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.6,
+      "speed_kmh": 40.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 1
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": -0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_right",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.6,
+          "wheel_index": 1,
+          "mass_eccentricity_kg_m": 0.009,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_007",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.8,
+      "speed_kmh": 40.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.8,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.012,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_008",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.6,
+      "speed_kmh": 60.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 2
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.6,
+          "wheel_index": 2,
+          "mass_eccentricity_kg_m": 0.009,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_009",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.8,
+      "speed_kmh": 20.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.8,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.012,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_010",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.2,
+      "speed_kmh": 50.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 3
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": -0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_right",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.2,
+          "wheel_index": 3,
+          "mass_eccentricity_kg_m": 0.003,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_011",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.2,
+      "speed_kmh": 20.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 2
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.2,
+          "wheel_index": 2,
+          "mass_eccentricity_kg_m": 0.003,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_012",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.4,
+      "speed_kmh": 60.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 3
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": -0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_right",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.4,
+          "wheel_index": 3,
+          "mass_eccentricity_kg_m": 0.006,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_013",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.6,
+      "speed_kmh": 50.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 0
+      },
+      "ground_truth": {
+        "fault_location_x_m": 1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "front_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.6,
+          "wheel_index": 0,
+          "mass_eccentricity_kg_m": 0.009,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_014",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.8,
+      "speed_kmh": 30.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 3
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": -0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_right",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.8,
+          "wheel_index": 3,
+          "mass_eccentricity_kg_m": 0.012,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    },
+    {
+      "run_id": "run_015",
+      "timestamp": "2025-12-07T01:30:00+05:30",
+      "fault_type": "imbalance",
+      "severity": 0.6,
+      "speed_kmh": 40.0,
+      "load_kg": 500.0,
+      "duration_sec": 10.0,
+      "imu_sampling_rate": 1000,
+      "audio_sampling_rate": 44100,
+      "n_imu_samples": 10000,
+      "n_audio_samples": 441000,
+      "fault_parameters": {
+        "wheel_index": 2
+      },
+      "ground_truth": {
+        "fault_location_x_m": -1.25,
+        "fault_location_y_m": 0.75,
+        "fault_location_z_m": 0.0,
+        "fault_location_name": "rear_left",
+        "fault_metadata": {
+          "fault_type": "imbalance",
+          "severity": 0.6,
+          "wheel_index": 2,
+          "mass_eccentricity_kg_m": 0.009,
+          "phase_rad": 0.0
+        }
+      },
+      "files": {
+        "imu": "imu.csv",
+        "audio": "audio.wav",
+        "metadata": "meta.json"
+      }
+    }
+  ]
+}

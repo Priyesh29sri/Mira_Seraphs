@@ -1,0 +1,41 @@
+# ##### BEGIN GPL LICENSE BLOCK #####
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 2
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software Foundation,
+#  Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+#
+# ##### END GPL LICENSE BLOCK #####
+"""
+Module colors defines color palette for BlenderKit UI.
+"""
+
+WHITE = (1, 1, 1, 0.9)
+
+TEXT = (0.9, 0.9, 0.9, 0.6)
+GREEN = (0.9, 1, 0.9, 0.6)
+RED = (1, 0.5, 0.5, 0.8)
+BLUE = (0.8, 0.8, 1, 0.8)
+
+PURPLE = (0.8, 0.4, 1.0, 1.0)  # Full Plan purple
+GREEN_FREE = (0.4, 0.8, 0.4, 1.0)  # Green for free addons
+"""Color for validator reports."""
+
+GRAY = (0.7, 0.7, 0.7, 0.6)
+"""Default color for debug reports."""
+
+# pure colors
+PURE_WHITE = (1, 1, 1, 1)
+PURE_BLACK = (0, 0, 0, 1)
+PURE_GREEN = (0, 1, 0, 1)
+PURE_RED = (1, 0, 0, 1)
+PURE_BLUE = (0, 0, 1, 1)

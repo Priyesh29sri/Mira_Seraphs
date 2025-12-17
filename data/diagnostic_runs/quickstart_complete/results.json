@@ -1,0 +1,60 @@
+{
+  "run_id": "quickstart_complete",
+  "timestamp": "2025-12-07T01:56:01.868543",
+  "input_parameters": {
+    "fault_type": "imbalance",
+    "severity": 0.6,
+    "speed_kmh": 40.0,
+    "load_kg": 500.0
+  },
+  "fault_location": {
+    "x_meters": -0.15625,
+    "y_meters": 0.0703125,
+    "z_meters": 0.05,
+    "uncertainty_radius_cm": 1.0,
+    "confidence": 1.0
+  },
+  "causal_results": {
+    "causes": [
+      {
+        "type": "wheel_imbalance",
+        "probability": 0.9471321124236931,
+        "confidence": 0.95
+      },
+      {
+        "type": "tire_wear",
+        "probability": 0.03398649915619726,
+        "confidence": 0.45
+      },
+      {
+        "type": "alignment_issue",
+        "probability": 0.01888138842010959,
+        "confidence": 0.45
+      },
+      {
+        "type": "bearing_fault",
+        "probability": 0.0,
+        "confidence": 0.7999999999999999
+      },
+      {
+        "type": "suspension_looseness",
+        "probability": 0.0,
+        "confidence": 0.7999999999999999
+      }
+    ],
+    "top_cause": "wheel_imbalance",
+    "top_cause_probability": 0.9471321124236931,
+    "confidence_interval": {
+      "lower": 0.8471321124236931,
+      "upper": 1.0
+    }
+  },
+  "repair_schedule": {
+    "urgency": 6,
+    "workshop_type": "wheel_balancing",
+    "estimated_cost": "$50-$80",
+    "estimated_time": "1 hour",
+    "priority": "high"
+  },
+  "explanation_summary": "wheel_imbalance detected with 95% confidence"
+}
